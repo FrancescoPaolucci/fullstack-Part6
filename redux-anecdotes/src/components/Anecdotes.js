@@ -1,29 +1,23 @@
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { addVote } from "../reducers/anecdoteReducer.js";
-import {
-  votedNotification,
-  hideNotification,
-} from "../reducers/notificationReducer";
+import { votedNotification } from "../reducers/notificationReducer";
 
 const Anecdotes = () => {
   const dispatch = useDispatch();
   const anecdotes = useSelector((state) => state.anecdote);
-  const filter = useSelector((state) => state.filtereducer);
-  const vote = (id, content) => {
-    console.log("vote", id);
-    dispatch(addVote(id));
-    dispatch(votedNotification(content));
-    setTimeout(() => {
-      dispatch(hideNotification());
-    }, 5000);
+  const Filter = useSelector((state) => state.filtereducer);
+  const vote = async (anecdote) => {
+    console.log("vote", anecdote.id);
+    dispatch(addVote(anecdote));
+    dispatch(votedNotification(`you voted '${anecdote.content}'`, 5));
   };
 
   const Anecdote = ({ anecdote }) => {
     return (
       <li>
         <p> {anecdote.content}</p>
-        <button onClick={() => vote(anecdote.id, anecdote.content)}>
+        <button onClick={() => vote(anecdote)}>
           vote {anecdote.votes}
         </button>{" "}
       </li>
@@ -32,7 +26,7 @@ const Anecdotes = () => {
   return (
     <ul>
       {anecdotes
-        .filter((data) => data.content.toLowerCase().indexOf(filter) !== -1)
+        .filter((data) => data.content.toLowerCase().indexOf(Filter) !== -1)
         .sort((a, b) => b.votes - a.votes)
         .map((anecdote) => (
           <Anecdote key={anecdote.id} anecdote={anecdote} />

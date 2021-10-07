@@ -1,0 +1,89 @@
+{
+  "anecdotes": [
+    {
+      "content": "If it hurts, do it more often",
+      "votes": 4,
+      "id": "47145"
+    },
+    {
+      "content": "Adding manpower to a late software project makes it later!",
+      "votes": 12,
+      "id": "21149"
+    },
+    {
+      "content": "The first 90 percent of the code accounts for the first 90 percent of the development time...The remaining 10 percent of the code accounts for the other 90 percent of the development time.",
+      "id": "69581",
+      "votes": 2
+    },
+    {
+      "content": "Any fool can write code that a computer can understand. Good programmers write code that humans can understand.",
+      "votes": 2,
+      "id": "36975"
+    },
+    {
+      "content": "Premature optimization is the root of all evil.",
+      "votes": 2,
+      "id": "25170"
+    },
+    {
+      "content": "Debugging is twice as hard as writing the code in the first place. Therefore, if you write the code as cleverly as possible, you are, by definition, not smart enough to debug it.",
+      "votes": 3,
+      "id": "98312"
+    },
+    {
+      "content": "asdfghjk",
+      "votes": null,
+      "id": "4fcOSfc"
+    },
+    {
+      "content": "asdfghj",
+      "votes": 2,
+      "id": "k-6xUY0"
+    },
+    {
+      "content": "ALLORAAAA",
+      "votes": 50,
+      "id": "ttYdL3a"
+    },
+    {
+      "content": "sddssdsd",
+      "votes": 0,
+      "id": "5NekC3e"
+    },
+    {
+      "content": "sssss",
+      "votes": 0,
+      "id": "9WfVp3D"
+    },
+    {
+      "content": "asdasdasd",
+      "votes": 0,
+      "id": "ULQtnMS"
+    },
+    {
+      "content": "asdadasd",
+      "votes": 0,
+      "id": "mqxpZv_"
+    },
+    {
+      "content": "asdasdasd",
+      "votes": 0,
+      "id": "z0wX3q7"
+    },
+    {
+      "content": "sdfsfsdf",
+      "votes": 0,
+      "id": "vc2alLU"
+    },
+    {
+      "content": "asdasdads",
+      "votes": 0,
+      "id": "M1dwZ8D"
+    },
+    {
+      "content": "asdadasd",
+      "votes": 0,
+      "id": "pW5HQOI"
+    }
+  ]
+}
