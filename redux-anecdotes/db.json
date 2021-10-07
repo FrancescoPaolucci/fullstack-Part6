@@ -2,18 +2,18 @@
   "anecdotes": [
     {
       "content": "If it hurts, do it more often",
-      "votes": 4,
+      "votes": 24,
       "id": "47145"
     },
     {
       "content": "Adding manpower to a late software project makes it later!",
-      "votes": 12,
+      "votes": 89,
       "id": "21149"
     },
     {
       "content": "The first 90 percent of the code accounts for the first 90 percent of the development time...The remaining 10 percent of the code accounts for the other 90 percent of the development time.",
       "id": "69581",
-      "votes": 2
+      "votes": 11
     },
     {
       "content": "Any fool can write code that a computer can understand. Good programmers write code that humans can understand.",
@@ -27,7 +27,7 @@
     },
     {
       "content": "Debugging is twice as hard as writing the code in the first place. Therefore, if you write the code as cleverly as possible, you are, by definition, not smart enough to debug it.",
-      "votes": 3,
+      "votes": 11,
       "id": "98312"
     },
     {
@@ -42,12 +42,12 @@
     },
     {
       "content": "ALLORAAAA",
-      "votes": 50,
+      "votes": 179,
       "id": "ttYdL3a"
     },
     {
       "content": "sddssdsd",
-      "votes": 0,
+      "votes": 2,
       "id": "5NekC3e"
     },
     {
@@ -72,7 +72,7 @@
     },
     {
       "content": "sdfsfsdf",
-      "votes": 0,
+      "votes": 2,
       "id": "vc2alLU"
     },
     {
@@ -84,6 +84,51 @@
       "content": "asdadasd",
       "votes": 0,
       "id": "pW5HQOI"
+    },
+    {
+      "content": "adadasd",
+      "votes": 0,
+      "id": "bYT2VsX"
+    },
+    {
+      "content": "asdadasd",
+      "votes": 0,
+      "id": "_tgD91V"
+    },
+    {
+      "content": "ASEFDTHHYULIO",
+      "votes": 0,
+      "id": "gJaj4bZ"
+    },
+    {
+      "content": "sdsddsds",
+      "votes": 0,
+      "id": "ddDsmHg"
+    },
+    {
+      "content": "##################################",
+      "votes": 0,
+      "id": "g1dzd0a"
+    },
+    {
+      "content": "sdfghjk",
+      "votes": 1,
+      "id": "9LONR2u"
+    },
+    {
+      "content": "",
+      "votes": 0,
+      "id": "1OhjqPI"
+    },
+    {
+      "content": "fdfdfdfddf",
+      "votes": 0,
+      "id": "nh80o5B"
+    },
+    {
+      "content": "xccxxccx",
+      "votes": 0,
+      "id": "mUE741J"
     }
   ]
 }
